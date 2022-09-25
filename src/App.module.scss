@@ -1,0 +1,16 @@
+.taskContainer {
+  display: flex;
+  flex-direction: column;
+
+
+  .taskTitle {
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .taskCard {
+    width: 50vw;
+    background-color: #c4c4c4;
+  }
+}

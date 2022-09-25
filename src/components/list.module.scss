@@ -1,0 +1,27 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+
+  .item {
+    display: flex;
+    margin: 10px 0;
+
+    .content {
+      width: 300px;
+      padding: 10px;
+      margin-right: 20px;
+      text-align: center;
+      background-color: black;
+      color: white;
+    }
+
+    .doneBtn {
+      width: 100px;
+      background-color: black;
+      color: white;
+    }
+  }
+}
